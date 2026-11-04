@@ -1,5 +1,21 @@
-<!-- Hero: light/dark switcher (one card, both themes, split by the seam) -->
-<img alt="Ogungbade Shalom · light and dark themes" src="./assets/banner-switcher.svg" width="100%">
+<!-- ID / hero: Monospace-CV (renders as a terminal session in a fenced code block) -->
+```bash
+$ whoami
+ogungbadeshalom · founder · builder · automation engineer
+
+$ cat skills.txt
+TypeScript · Node · Hono · React · Next.js · Python · FastAPI · PostgreSQL · SQLite · LLM pipelines · headless browsers
+
+$ uptime
+building & shipping production software solo.
+
+$ contact --all
+→ badeshalom@gmail.com   in/ogungbade-shalom
+```
+
+<a href="https://github.com/OgungbadeShalom">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=600&color=2DD4BF&center=false&vCenter=true&width=460&lines=currently+shipping+ApplyOS;building+products+solo;automating+the+job+hunt" alt="typing status" />
+</a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ogungbade-shalom-904201289/"><img src="https://img.shields.io/badge/LinkedIn-Ogungbade%20Shalom-0A66C2?logo=linkedin&logoColor=white&style=flat"></a>
@@ -38,12 +54,6 @@ headless browsers, and self-host the products I ship.
 Node.js, TypeScript, Hono, React, Next.js · Python &amp; FastAPI · PostgreSQL, SQLite ·
 LLM pipelines, headless browsers, cron ecosystems · Docker, PM2, reverse proxies, tunnels.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
-  <img alt="The terminal" src="./assets/stack-dark.svg" width="100%">
-</picture>
-
 <br>
 
 ## Projects
@@ -75,5 +85,5 @@ tooling that my own products run on. If it's a recurring task, it probably runs 
 </picture>
 
 <div align="center">
-  <sub>Building, shipping, automating · one $4 VPS at a time.</sub>
+  <sub>Building, shipping, automating · from Lagos.</sub>
 </div>
