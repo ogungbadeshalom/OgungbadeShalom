@@ -16,8 +16,8 @@
 
   <text x="56" y="96" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#38bdf8">$ whoami</text>
   <text x="56" y="120" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#a5b4fc">> Ogungbade Shalom · full-stack builder &amp; founder</text>
-  <text x="56" y="144" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#38bdf8">$ cat /budget.txt</text>
-  <text x="56" y="168" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#fbbf24">> $0. Build, don't buy.</text>
+  <text x="56" y="144" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#38bdf8">$ cat stack.txt</text>
+  <text x="56" y="168" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#fbbf24">> Node · TypeScript · Hono · Python · Postgres</text>
   <rect x="330" y="156" width="9" height="17" fill="#38bdf8" rx="1">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>

@@ -1,42 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" role="img" aria-label="Ogungbade Shalom">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060a14"/>
-      <stop offset="100%" stop-color="#0b1426"/>
+    <linearGradient id="np-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0420"/>
+      <stop offset="0.5" stop-color="#150a2e"/>
+      <stop offset="1" stop-color="#0a0420"/>
     </linearGradient>
-    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2dd4bf"/>
-      <stop offset="45%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#2dd4bf"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="np-spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d9ff"/>
+      <stop offset="0.5" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#ff00d9"/>
+      <animate attributeName="x1" values="0;-1;0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0 L0 0 0 36" fill="none" stroke="#38bdf8" stroke-opacity="0.05" stroke-width="1"/>
-    </pattern>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="30" result="b"/>
-      <feComposite in="b" operator="over"/>
+    <linearGradient id="np-spectrum2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff00d9"/>
+      <stop offset="0.5" stop-color="#00d9ff"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+      <animate attributeName="x1" values="0;1;0" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="11s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="np-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="np-soft">
+      <feGaussianBlur stdDeviation="1.2"/>
     </filter>
   </defs>
-  <rect width="840" height="300" fill="url(#bg)"/>
-  <rect width="840" height="300" fill="url(#grid)"/>
-  <ellipse cx="640" cy="60" rx="140" ry="140" fill="#2dd4bf" opacity="0.12" filter="url(#glow)">
-    <animate attributeName="cx" values="640;684;616;640" dur="9s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="150" cy="250" rx="150" ry="150" fill="#38bdf8" opacity="0.10" filter="url(#glow)">
-    <animate attributeName="cx" values="150;118;172;150" dur="11s" repeatCount="indefinite"/>
-  </ellipse>
-  <text x="420" y="120" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="52" font-weight="800" fill="url(#title)" letter-spacing="1">OGUNGBADE SHALOM</text>
-  <text x="420" y="168" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="20" fill="#8aa0c0" letter-spacing="3">
-    <tspan>FOUNDER · BUILDER · AUTOMATION ENGINEER</tspan>
-  </text>
-  <rect x="700" y="156" width="12" height="22" fill="#2dd4bf" rx="1">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="300" y="196" width="240" height="2" fill="#2dd4bf" rx="1">
-    <animate attributeName="width" values="180;260;180" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="330;290;330" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <text x="420" y="248" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="17" fill="#5b6b83" letter-spacing="5">BUILD · SHIP · AUTOMATE · REPEAT</text>
+
+  <rect width="840" height="300" fill="url(#np-bg)"/>
+  <g stroke="#1f1140" stroke-width="0.5">
+    <line x1="0" y1="75" x2="840" y2="75"/>
+    <line x1="0" y1="150" x2="840" y2="150"/>
+    <line x1="0" y1="225" x2="840" y2="225"/>
+    <line x1="168" y1="0" x2="168" y2="300"/>
+    <line x1="336" y1="0" x2="336" y2="300"/>
+    <line x1="504" y1="0" x2="504" y2="300"/>
+    <line x1="672" y1="0" x2="672" y2="300"/>
+  </g>
+
+  <path fill="none" stroke="url(#np-spectrum2)" stroke-width="2" opacity="0.4">
+    <animate attributeName="d" values="M -50 255 C 240 245 410 230 560 188 C 710 146 800 92 890 60 ; M -50 255 C 240 262 410 210 560 188 C 710 166 800 74 890 60 ; M -50 255 C 240 245 410 230 560 188 C 710 146 800 92 890 60" dur="14s" repeatCount="indefinite"/>
+  </path>
+  <path fill="none" stroke="url(#np-spectrum)" stroke-width="2.5" opacity="0.65" filter="url(#np-soft)">
+    <animate attributeName="d" values="M -50 285 C 240 278 410 258 560 220 C 710 182 800 118 890 92 ; M -50 285 C 240 294 410 238 560 220 C 710 202 800 100 890 92 ; M -50 285 C 240 278 410 258 560 220 C 710 182 800 118 890 92" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <path fill="none" stroke="url(#np-spectrum)" stroke-width="3" filter="url(#np-glow)">
+    <animate attributeName="d" values="M -50 315 C 240 308 410 292 560 252 C 710 212 800 148 890 122 ; M -50 315 C 240 326 410 270 560 252 C 710 234 800 130 890 122 ; M -50 315 C 240 308 410 292 560 252 C 710 212 800 148 890 122" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="'Space Grotesk','Segoe UI',system-ui,sans-serif">
+    <text x="60" y="120" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-1">OGUNGBADE SHALOM</text>
+    <text x="60" y="120" font-size="46" font-weight="800" fill="url(#np-spectrum)" letter-spacing="-1" filter="url(#np-glow)" opacity="0.7">OGUNGBADE SHALOM</text>
+  </g>
+  <text x="62" y="150" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="#00d9ff" letter-spacing="4">FOUNDER · BUILDER · AUTOMATION ENGINEER</text>
+
+  <g font-family="'JetBrains Mono','Courier New',monospace" font-size="10" letter-spacing="2">
+    <g transform="translate(60,170)">
+      <rect width="86" height="24" rx="12" fill="none" stroke="#4b3a8f" stroke-width="0.8"/>
+      <text x="43" y="16" text-anchor="middle" fill="#c9b8ff">typescript</text>
+    </g>
+    <g transform="translate(156,170)">
+      <rect width="54" height="24" rx="12" fill="none" stroke="#4b3a8f" stroke-width="0.8"/>
+      <text x="27" y="16" text-anchor="middle" fill="#c9b8ff">hono</text>
+    </g>
+    <g transform="translate(220,170)">
+      <rect width="64" height="24" rx="12" fill="none" stroke="#4b3a8f" stroke-width="0.8"/>
+      <text x="32" y="16" text-anchor="middle" fill="#c9b8ff">python</text>
+    </g>
+    <g transform="translate(294,170)">
+      <rect width="100" height="24" rx="12" fill="none" stroke="#4b3a8f" stroke-width="0.8"/>
+      <text x="50" y="16" text-anchor="middle" fill="#c9b8ff">automation</text>
+    </g>
+  </g>
+
+  <g transform="translate(60,280)" font-family="'JetBrains Mono','Courier New',monospace" font-size="10" letter-spacing="3" fill="#a78bfa">
+    <circle cx="6" cy="-3" r="3.5" fill="#00d9ff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="0">LAGOS · BUILDING FOR THE WORLD</text>
+  </g>
 </svg>

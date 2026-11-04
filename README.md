@@ -26,9 +26,8 @@ I'm a full-stack founder and automation engineer who turns scrappy ideas into sh
 products and puts whole businesses on autopilot. I build production systems solo,
 iterate fast, and ship real.
 
-I'm allergic to paying for tools I can build myself. My philosophy is "$0 or die":
-scrape it, self-host it, or write it before I subscribe to it. Everything I run fits on
-a single $4/mo Hetzner VPS, including multi-tenant SaaS and automated job submission.
+I build with Node.js, TypeScript, Python, and Hono, automate with LLM pipelines and
+headless browsers, and self-host the products I ship.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg">
