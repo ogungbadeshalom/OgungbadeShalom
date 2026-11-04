@@ -38,14 +38,9 @@ I'm a full-stack founder and automation engineer who turns scrappy ideas into sh
 products and puts whole businesses on autopilot. I build production systems solo,
 iterate fast, and ship real.
 
-I build with Node.js, TypeScript, Python, and Hono, automate with LLM pipelines and
-headless browsers, and self-host the products I ship.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/features-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/features-light.svg">
-  <img alt="What I do" src="./assets/features-dark.svg" width="100%">
-</picture>
+- **Builds** end-to-end with Node.js, TypeScript, Python, and Hono
+- **Automates** with LLM pipelines and headless browsers
+- **Self-hosts** the products I ship
 
 <br>
 
