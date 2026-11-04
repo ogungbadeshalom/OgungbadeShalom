@@ -1,9 +1,5 @@
-<!-- Hero banner (animated: shimmer title, glow orbs, blinking terminal caret) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Ogungbade Shalom" src="./assets/banner-dark.svg" width="100%">
-</picture>
+<!-- Hero: light/dark switcher (one card, both themes, split by the seam) -->
+<img alt="Ogungbade Shalom · light and dark themes" src="./assets/banner-switcher.svg" width="100%">
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ogungbade-shalom-904201289/"><img src="https://img.shields.io/badge/LinkedIn-Ogungbade%20Shalom-0A66C2?logo=linkedin&logoColor=white&style=flat"></a>
