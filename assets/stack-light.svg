@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 210" width="840" height="210">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f9fd"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="840" height="210" fill="url(#bg)"/>
+
+  <rect x="40" y="30" width="760" height="150" rx="12" fill="#ffffff" stroke="#e3e9f2" stroke-width="1"/>
+  <circle cx="64" cy="48" r="6" fill="#ff5f56"/>
+  <circle cx="86" cy="48" r="6" fill="#ffbd2e"/>
+  <circle cx="108" cy="48" r="6" fill="#27c93f"/>
+  <text x="420" y="54" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="#76879e">shalom@vps:~</text>
+  <rect x="40" y="66" width="760" height="1" fill="#eef2f7"/>
+
+  <text x="56" y="96" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#0369a1">$ whoami</text>
+  <text x="56" y="120" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#0f1b2d">> Ogungbade Shalom · full-stack builder &amp; founder</text>
+  <text x="56" y="144" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#0369a1">$ cat /budget.txt</text>
+  <text x="56" y="168" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" fill="#b45309">> $0. Build, don't buy.</text>
+  <rect x="330" y="156" width="9" height="17" fill="#0369a1" rx="1">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
